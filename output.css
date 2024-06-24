@@ -570,8 +570,16 @@ video {
   width: 50%;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .place-items-center {
   place-items: center;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-mono {
@@ -609,4 +617,29 @@ video {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-orange-500 {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+
+.text-opacity-0 {
+  --tw-text-opacity: 0;
+}
+
+.text-opacity-25 {
+  --tw-text-opacity: 0.25;
+}
+
+.text-opacity-15 {
+  --tw-text-opacity: 0.15;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.line-through {
+  text-decoration-line: line-through;
 }
