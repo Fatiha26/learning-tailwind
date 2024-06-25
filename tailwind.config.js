@@ -2,7 +2,13 @@
 module.exports = {
   content: ['./cards.html'],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+       lamia: {
+         400: "#474787",
+      },
+    },     
+    },
   },
   plugins: [],
 }
